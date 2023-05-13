@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-size: cover;
+    background-image:url(images/image2.jpg);
+    padding: 50px;
+}
+h1{
+    /*text-align: center;*/
+    color: white;
+}
+.Note{
+    color: brown;
+}
+li{
+    color: white;
+    display:inline;
+    padding-right: 20px;
+}
+
+ul{
+    float: right;
+    padding-left: 30px;
+}
+#about{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    background-image: url(images/1962-le-monde-zoom.jpg);
+    background-size: cover;
+    /*opacity: 0.3;*/
+    /*backdrop-filter: blur(10px);*/
+}
+footer{
+    padding-top: 50px;
+    padding-left: 50px;
+}

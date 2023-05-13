@@ -1,0 +1,29 @@
+.parent {
+    background: aquamarine;
+    height: 75vh;
+    width: 75vw;
+    padding: 1em;
+    margin: 80px;
+    position:relative ;
+  }
+  .parent p{
+    position: relative;
+    z-index: 10 ;
+  }
+  .child p{
+    position: relative;
+    z-index: 10 ;
+  }
+  
+  .child {
+    background: red;
+    width: 50px;
+    height: 100%;
+    position:absolute;
+    z-index: 0;
+    left: 50%;
+    top:0;
+    bottom: 0;
+
+
+  }

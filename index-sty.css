@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+header{
+    color: white;
+    background-color: #2D2727;
+    height: 10%;
+}
+.page-title{
+    text-align: center;
+    padding-top: 14px;
+    text-transform: capitalize;
+}
+main{
+    padding: 10px;
+    width: 80%;
+    height: 90%;
+    background-color: #CBE4DE;
+    overflow: auto;
+}
+aside{
+    width: 20%;
+    height: 90%;
+    background-color: #2D2727;
+}
+.sidenav{
+    text-align: center;
+    padding-top: 40px;
+}
+.sidenav-item{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.sidenav-item a{
+    color: white;
+    text-decoration: none;
+}
+.float-left{
+    float: left;
+}
+.post-title{
+    padding-bottom: 20px;
+}
+.post-content{
+    width: 50%;
+    float: left;
+}
+.post-paragraph{
+    padding: 10px;
+}
+.post-images{
+    width: 50%;
+    float: left;
+}
+.post-image{
+    width: 100%;
+}

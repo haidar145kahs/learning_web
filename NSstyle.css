@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+div{
+    width: 100%;
+    height: calc(100% / 3);
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+main{
+    height: 100%;
+}
+
+.bg-red{
+    background-color:red;
+}
+
+.bg-white{
+    background-color:white;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.bg-black{
+    background-color:black;
+}
+
+.bg-green{
+    background-color:green;
+}
+
+.star{
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+

@@ -1,0 +1,17 @@
+.blocks{
+    border: 10px solid greenyellow;
+    width: 1000px;
+    display: flex;
+    gap:1rem;
+}
+.blocks > *{
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+}
+ .one{
+    padding: 30px;
+    background-color: aqua;
+}
