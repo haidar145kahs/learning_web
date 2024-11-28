@@ -1,0 +1,120 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+h1{
+    color: #ded5b1 ;
+    margin-top: 40px ;
+    text-align: center;
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+h2{
+    color: #ded5b1 ;
+    margin-top: 20px ;
+    padding:0px 50px 20px 20px  ;   
+}
+main{
+    float: left;
+    width: 79%;
+}
+main{
+    counter-reset: counter ;
+}
+main h2::before{
+    counter-increment: counter;
+    content: counter(counter) '. ';
+}
+.preface{
+    color: #ded5b1;
+    font-size: 25px;
+    padding:10px 50px 20px 20px ;
+    background-color: #bbd6b828;
+    border-radius: 20px;
+
+}
+.para{
+    color: #ded5b1;
+    font-size: 25px;
+    padding:50px 50px 20px 20px ;
+    background-color: #bbd6b828;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.parag{
+    color: #ded5b1;
+    font-size: 25px;
+    padding:10px 50px 20px 20px ;
+    background-color: #bbd6b828;
+
+}
+aside{
+    float: right;
+    width: 20%;
+    background-color: #bbd6b828;
+    border-radius: 20px;
+    padding: 10px 50px 20px 20px;
+}
+.sidebar ul {
+    list-style: lower-greek;
+}
+.sidebar ul li {
+    padding-top: 15px; 
+    font-family: cursive;  
+}
+a{
+    color: #696025;
+    text-decoration: none;
+    text-shadow: #000000ad 2px 2px 3px;
+}
+main a[data-tool-tip]{
+    position: relative;
+}
+main a[data-tool-tip]::after{
+    content: attr(data-tool-tip);
+    display: block;
+    position:absolute;
+    background-color: #D5CEA3;
+    padding: 1em 3em;
+    border-radius:10px;
+    font-size: .60em;
+    bottom: 100%;  
+    left: 0;
+    white-space:nowrap;
+    transform:scale(0);
+    transition: transform ease-in-out 150ms , bottom ease-out 150ms;
+}
+main a[data-tool-tip]:hover::after{
+    transform: scale(1);
+}
+a:hover { color: #6d8e8e;}
+/* a:visited { color: #7e6f0b;}  */
+
+.summa{
+    color: #aca473;
+    font-size: medium;
+    padding: 5px;
+}
+nav{
+    background-color: #bbd6b828;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    margin-left: 300px;
+    width:55%;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-left:75px
+}
+nav ul li {
+    font-size: 1.4rem;
+    display: inline;
+    margin:47px;
+}

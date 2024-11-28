@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navStyle.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav class="navBar">
+        <div id="logoItem"> <a href="index.html"><img src="images/logo.png" alt=""></a></div>
+        <ul id="barList">
+            <li id="listItem"><a href="#">Explore</a></li>
+            <li id="listItem" class="dropbtn"> <a href="#">Featres</a>
+                <div class="dropList">
+                    <a href="#">about us</a>
+                    <a href="#">product</a>
+                    <a href="#">single product</a>
+                    <a href="#">contact us</a>
+                </div>
+            </li>
+            <li id="listItem" class="dropbtn"><a href="#">Pages</a>
+                <div class="dropList">
+                    <a href="aboutUs.html">about us</a>
+                    <a href="#">product</a>
+                    <a href="#">single product</a>
+                    <a href="#">contact us</a>
+                </div>
+            </li>
+            <li id="listItem"><a href="#">Kid's</a></li>
+            <li id="listItem"><a href="#">Women's</a></li>
+            <li id="listItem"><a href="#">Men's</a></li>
+            <li id="listItem"><a href="#">Home</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main class="mainBody">
+        <article class="images">
+            <div class="LeftImageclass">
+                <img src="images/left-banner-image.jpg" alt="Photo" id="leftImageId" >
+
+                
+
+
+                <p id="word-about-the-shop"> Welcome  To HEXASHOP</p>
+                <span>where every thing you wish</span>
+                <a id="pruchase-button" href="#"> Pruchase Now</a>
+            </div>
+            <div class="fistRightImage">
+                <img src="images/baner-right-image-01.jpg" alt="Photo"  class="rightImage-01">
+                <p id="Women"> Women</p>
+                <span>Best Clothes For Women</span>
+                <div class="Overlay">
+                    <div class="TextOnTheFirstImage"> Women</div>
+                    <div class="TextOnTheFirstImage2"> We Have more In Here: </div>
+                    <a class="Discover-button" href="#"> Discover more</a>
+                </div>
+            </div>
+            <div class="secoundRightImage">
+                <img src="images/baner-right-image-02.jpg" alt="Photo"  class="rightImage-02">
+                <p id="Women"> Men</p>
+                <span>Best Clothes For Men</span>
+                <div class="Overlay">
+                    <div class="TextOnTheFirstImage"> Men</div>
+                    <div class="TextOnTheFirstImage2"> We Have more In Here: </div>
+                    <a class="Discover-button" href="#"> Discover more</a>
+                </div>
+            </div>
+            <div class="TherdRightImage">
+                <img src="images/baner-right-image-03.jpg" alt="Photo"  class="rightImage-03">
+                <p id="Women"> Kids</p>
+                <span>Best Clothes For Kids</span>
+                <div class="Overlay">
+                    <div class="TextOnTheFirstImage"> Kids</div>
+                    <div class="TextOnTheFirstImage2"> We Have more In Here: </div>
+                    <a class="Discover-button" href="#"> Discover more</a>
+                </div>
+            </div>
+            <div class="ForthRightImage">
+                <img src="images/baner-right-image-04.jpg" alt="Photo"  class="rightImage-04">
+                <p id="Women"> Accessores</p>
+                <span>Best Accessores Collictions</span>
+                <div class="Overlay">
+                    <div class="TextOnTheFirstImage3"> Accessores</div>
+                    <div class="TextOnTheFirstImage2"> We Have more In Here: </div>
+                    <a class="Discover-button" href="#"> Discover more</a>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section class="splide" aria-label="Splide Basic HTML Example" style="height: 50%;">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide"><img src="images/men-01.jpg" alt="#"></li>
+                <li class="splide__slide"><img src="images/men-02.jpg" alt="#"></li>
+                <li class="splide__slide"><img src="images/men-03.jpg" alt="#"></li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"defer></script>
+    <script>document.addEventListener( 'DOMContentLoaded', function() {new Splide( '.splide' ).mount();});
+        </script>
+        <script>
+            new Splide( '.splide', {
+            perPage: 3,
+            focus  : 'center',
+            } );
+        </script>
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>

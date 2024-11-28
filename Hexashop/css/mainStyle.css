@@ -1,0 +1,333 @@
+.grid-clomuns-span2{
+    grid-column: span 2;
+}
+.mainBody{
+    margin-top: 4em;
+    width: 100%;
+    height: auto;
+}
+.images{
+    display: grid;
+    row-gap: 1.5vw;
+    column-gap: 2vh;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,17.5em);
+}
+#leftImageId{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    width: 48vw;
+    height: 80vh;
+    font-size: 1.1em;
+    margin: 0 1em;
+}
+.fistRightImage{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    width: 21vw;
+    height: 42vh;
+}
+.secoundRightImage{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    width: 21vw;
+    height: 42vh;
+}
+.TherdRightImage{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    width: 21vw;
+    height: 42vh;
+}
+.ForthRightImage{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    width: 21vw;
+    height: 42vh;
+}
+.rightImage-01,.rightImage-02 ,.rightImage-03 ,.rightImage-04{
+    width: 21vw;
+}
+/* ____________________________Left Image______________________________________ */
+#word-about-the-shop{
+    position: absolute ;
+    color: white;
+    top:60%;
+    left: 19%;
+    font-size: 1.9em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.LeftImageclass span{
+    position: absolute ;
+    color: white;
+    top:65%;
+    left: 15.5%;
+    padding-top: 10vh;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+    font-size: 1.2em;
+}
+#pruchase-button{
+    position: absolute ;
+    top:70%;
+    left: 11%;
+    margin-top: 11vh;
+    padding: 1.9vh;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+    font-size: 0.9em;
+}
+.LeftImageclass a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .3s
+}
+.LeftImageclass a:hover{
+    font-size: 1.1em;
+    color: #000000;
+    background-color:#ffffff ;
+    border: 0.1em solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .5s
+}
+/*_______________________________this code belungs to the four righte photos___________________________________*/
+.fistRightImage{
+    position: relative;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .15s ease;
+    backface-visibility: hidden;
+}
+.fistRightImage p{
+    position:absolute;
+    color: white;
+    top:40%;
+    left: 47%;
+    font-size: 1.7em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.fistRightImage span{
+    position:absolute;
+    color: white;
+    top:60%;
+    left: 58%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.secoundRightImage{
+    position: relative;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.secoundRightImage p{
+    position:absolute;
+    color: white;
+    top:40%;
+    left: 47%;
+    font-size: 1.7em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.secoundRightImage span{
+    position:absolute;
+    color: white;
+    top:60%;
+    left: 58%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.TherdRightImage{
+    position: relative;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.TherdRightImage p{
+    position:absolute;
+    color: white;
+    top:40%;
+    left: 49%;
+    font-size: 1.7em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.TherdRightImage span{
+    position:absolute;
+    color: white;
+    top:60%;
+    left: 60%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.ForthRightImage{
+    position: relative;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.ForthRightImage p{
+    position:absolute;
+    color: white;
+    top:40%;
+    left: 50%;
+    font-size: 1.7em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.ForthRightImage span{
+    position:absolute;
+    color: white;
+    top:60%;
+    left: 55%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+/*__________________________________For The Images And The Fade In Overlay__________________________________________________________*/
+.Overlay{
+    position:absolute;
+    top: 5%;
+    bottom:0 ;
+    left: 5%;
+    right: 0;
+    height: 87%;
+    width: 83%;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .15s ease;
+    background-color: #282828;
+}
+.fistRightImage:hover .Overlay{
+    opacity: 0.99;
+    transition: 0.4s ease;
+}
+.secoundRightImage:hover .Overlay{
+    opacity: 0.99;
+    transition: 0.4s ease;
+}
+.TherdRightImage:hover .Overlay{
+    opacity: 0.99;
+    transition: 0.4s ease;
+}
+.ForthRightImage:hover .Overlay{
+    opacity: 0.99;
+    transition: 0.4s ease;
+}
+.TextOnTheFirstImage{
+    position:absolute;
+    color: white;
+    top:40%;
+    left: 74%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1.5em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+
+}
+.TextOnTheFirstImage2{
+    position:absolute;
+    color: white;
+    top:55%;
+    left: 54%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1.2em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+.Overlay a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s;
+    
+}
+.Overlay .Discover-button {
+    position: absolute ;
+    top:50%;
+    left: 48%;
+    margin-top: 11vh;
+    padding: 1.9vh;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+    font-size: 0.9em;
+
+}
+.Overlay a:hover {
+    font-size: 0.99em;
+    color: #000000;
+    background-color:#ffffff ;
+    border: 0.1em solid #fff;
+    display: inline-block;
+    font-weight: bold;
+    transition: all .5s
+}
+.TextOnTheFirstImage3{
+    position:absolute;
+    color: white;
+    top:40%;
+    left: 64%;
+    justify-content: center;
+    width: 75%;
+    font-size: 1.5em;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+
+}

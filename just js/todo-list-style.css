@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.nameInput{
+    padding: 0.8em;
+    margin-right: 1.9em;
+    font-weight: bold;
+}
+.dueDateInput{
+    padding: 0.8em 0.8em;
+    margin-right: 1.9em;
+    font-weight: bold;
+    
+}
+.addButton{
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 20px;
+    background-color: #024e3b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addedHtml{
+    margin-right: 12em;
+}
+.todoGrid{
+display: grid;
+grid-template-columns: 230px 145px 80px ;
+column-gap: 10px;
+row-gap: 3px;
+margin-top: 0.3em;
+align-items: center;
+}
+.deletButton{
+    padding: 0.8em;
+    border: none;
+    border-radius: 20px;
+    background-color: #4e0220;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}

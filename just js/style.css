@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe-button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding:0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.is-subscribe{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+.cost-input{
+    padding: 0.7em;
+    border-style: solid ;
+}
+.calculateButto{
+    border: none;
+    background-color: rgb(4, 149, 11);
+    color: rgb(255, 255, 255);
+    padding: 0.85em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}

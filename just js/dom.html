@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p> Youtube subscibe button</p>
+    <button class="js-button subscribe-button" onclick="
+    subscribe();
+    "> subscribe</button>
+    <p>Amazon Shipping calculator </p>
+    <input type="text" placeholder="Cost Of Order" class="js-cost-input cost-input" onkeydown=" handelCostKeydown(event)">
+
+    <button onclick="
+    calculateTotal()
+    " class="calculateButto"> calculate</button>
+    <p class="js-total-cost"></p>
+
+<script>
+    function handelCostKeydown(event){
+        console.log(event.key);
+        if(event.key==='Enter'){
+            calculateTotal();
+    }
+    }
+    function calculateTotal() {
+        let inputElement =  document.querySelector('.js-cost-input');
+        let cost = Number(inputElement.value);
+        console.log(cost)
+        if(cost <40){
+            cost+=10;
+        }
+        document.querySelector('.js-total-cost').innerHTML = `$${cost}`
+
+    };
+
+    function subscribe(){
+        let buttonElement = document.querySelector('.js-button') ;
+        buttonElement.innerHTML;
+        console.log( buttonElement.innerHTML);
+        
+        if( buttonElement.innerText  === 'subscribe'){
+            buttonElement.innerHTML   = 'unsubscribe';
+            buttonElement.classList.add('is-subscribe');
+        }
+        else if ( buttonElement.innerText  === 'unsubscribe'){
+            buttonElement.innerHTML  = 'subscribe';
+            buttonElement.classList.remove('is-subscribe')
+        }   
+        };
+
+    </script>
+</body>
+</html>
+

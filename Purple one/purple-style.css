@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 html{
     height: 100%;
@@ -11,6 +12,7 @@ body{
 nav{
 
     height: 10%;
+    background-color: rgb(190, 189, 189);
 }
 .logo{
     float: left;
@@ -36,6 +38,6 @@ li {
 }
 li:hover{
     background-color: purple;
-    height:47%;
+    height:100%;
     color: white;
 }

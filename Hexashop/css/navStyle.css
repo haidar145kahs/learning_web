@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+header{
+    height:12%;
+}
+.navBar{
+    height:100%;
+    width: 100%;
+    border-bottom: #dddadabe dotted .15em;
+}
+#barList{
+    height: 100%;
+    margin-right: 9.5em;
+    overflow: hidden;
+}
+#logoItem{
+    display: inline;
+    font-size: 1.0em;
+    padding: 1em 10em;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#listItem a { 
+    color: black;
+    text-decoration: none;
+    color: inherit;
+    /* width: 100%; */
+    padding: 1.2em 1.2em;
+    transition: all .4s
+}
+#barList #listItem {
+    display: inline;
+    font-size: 1.0em;
+    padding: 0.1em;
+    margin-top: 2em;
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#barList #listItem a:hover{
+    color:#535050;
+}
+.dropbtn .dropList a{
+    text-decoration: none;
+    display: block;
+
+}
+.dropList{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: auto;
+    text-align: center;
+    z-index: 1;
+}
+.dropList a {
+    font-size: 0.8em;
+    text-align: start;
+}
+.dropList a:hover{
+    /* background-color: #f1f1f1; */
+    margin-left: 0.5em;
+    font-size: 0.81em
+}
+.dropbtn:hover .dropList{
+    display: block;
+}

@@ -1,0 +1,31 @@
+/*___________________________________________this for image style______________________________________________*/
+.image{
+    margin-top: 9vh;
+    height: 55vh;
+    width: 100%;
+    object-fit: cover;
+}
+.imageContenr{
+    position: relative;
+    height: 55vh;
+    width: 100%;
+}
+.paragraph_1{
+    position: absolute;
+    top: 55%;
+    left: 27%;
+    font-size: 3rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.paragraph{
+    position: absolute;
+    top: 73%;
+    left: 35.5%;
+    font-size: 1.2rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+/*___________________________________________this for _____________________________________________*/

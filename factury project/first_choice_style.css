@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 10px;
+    height: 10%;
+    background-color: #999;
+}
+.list{
+    float:right;
+    display: inline;
+
+}
+li:hover {
+    background-color: black;
+    color: #999;
+}
+.list li {
+    display: inline;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding: 5px 50px 5px;
+    font-family: cursive;
+    font-weight: bold;
+    border: solid 2px rgb(49, 91, 86);
+}
+.logo{
+    display: inline;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;}
+.span {
+color: red;
+}

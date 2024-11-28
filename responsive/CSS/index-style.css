@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+width: 100%;
+height: 100%;
+font-size: 17px;
+font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.NavContenar{
+    width: 100%;
+    min-width: 100%;
+    height: 75%;
+    min-height: 55vh;
+    background-color: #5c6268;
+}
+.HomeImage{
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 55vh;
+    object-fit: cover;
+    position: relative;
+    filter:brightness(70%);
+    opacity: 0.7;
+}
+.Navbar {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    min-width: 90%;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    
+}
+.Logo {
+    /* border: 3px black solid; */
+    margin: 1.7em;
+    margin-left: 7.7em;
+    font-weight: 700;
+}
+.Logo a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+.Navbar ul {
+    display: flex;
+    max-width: 90%;
+    margin-right: 7.7em;
+}
+.Navbar li{
+    list-style: none;
+    margin-top: 2em;
+    margin-left:2em ;
+    font-weight: 700;
+}
+.Navbar li a  {
+    text-decoration: none;
+    color: rgb(255, 247, 247);
+    font-size: 1em;
+
+}
+.MainTitle{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.MainTitle-1{
+    font-size: 4.56rem;
+    min-width: 10%;
+    color: white;
+}
+.MainTitle-2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+a:hover ,li a:hover{
+    color: rgb(167, 165, 165);
+}
+li a:focus{
+    color: rgb(54, 46, 101);
+    font-size: 0.9rem;
+}
+.PostContenar{  
+    padding-top: 7em;
+    width: 50%;
+    display: grid;
+    margin: auto;
+}
+
+.Post{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.PostTitle{
+    
+}
+.PostTitle span{
+    font-weight: 100;
+    font-size: 1.5rem;
+    
+}
+.PostTitle span::before {
+    content: "\A";
+    white-space: pre;
+}
+.PostComment{
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding-bottom: 0.5em;
+    border-bottom: 0.5px #adafb0 solid;
+    font-family: "Edu QLD Beginner", cursive;
+}
+.PostContenar a {
+    text-decoration: none;
+    color: black;
+}
+.PostContenar a:hover{
+    color: #0085A1;;
+}
+@media(max-width:1270px ){
+    .PostContenar{
+        padding:0 ;
+        display: grid;
+        margin: auto;
+        padding-top: 6rem;
+    }
+}
+@media(max-width:950px ){
+    html{
+        font-size: 10px;}
+}
+@media(max-width:620px ){
+    html{
+        font-size: 8px;}
+    ul{
+        background-color: #adafb0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        float: right;
+    }
+    .Logo a{
+        float: left;
+        text-align: center;
+        font-size: 1.9rem;    
+    }
+}

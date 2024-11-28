@@ -64,27 +64,27 @@ nav{
     display: flex;
     justify-content: space-between;
 }
- ul{
+ul{
     margin: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     width: 80%;
- }
- .name{
+}
+.name{
     display: flex;
     justify-content: start;
     align-items: center;
     width: 10%;
- }
- li{
+}
+li{
     padding:10px;
- }
- main{
+}
+main{
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 .butt-inline{
     display: inline;
     margin: 60px;

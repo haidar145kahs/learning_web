@@ -47,8 +47,8 @@ a:hover{ color:#FF5F9E ;}
     display: inline-block;}
 .mainheader a:hover ,.mainheader a:active{
     background-color:#A75D5D;
-   padding: 10px 40px; 
-   text-shadow:rgb(0, 0, 0) 1px 1px 0px ;
+    padding: 10px 40px; 
+    text-shadow:rgb(0, 0, 0) 1px 1px 0px ;
    /* display: inline-block;  */}
 /*______________________________________ Main Contant____________________________________*/
 .maincontant{
