@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+    body{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        line-height: 1.5em;
+    }
+    header{
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 4px #000 solid;
+        margin-bottom: 10px;
+    }
+    #container{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Lorem ipsum dolor sit amet.</h1>
+    </header>
+    <div id="container">
+        <h3>Mouse Events</h3>
+        <button id="btn-1">Button 1</button>
+        <button id="btn-2">Button 2</button>
+        <p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Ipsa quidem impedit autem atque laborum facere libero, nulla suscipit tempore corrupti?</p>
+        <h1 id="coords"></h1>
+        <hr>
+		<form id="form">
+			<label>Name</label><br>
+			<input type="text" id="name" name="name">
+			<br>
+			<label>Email</label><br>
+			<input type="text" id="email" name="email">
+			<br>
+			<label>Gender</label><br>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+    </div>
+    <script>
+        /* $('#btn-1').click(
+            function(){
+            alert('Button clicked !');
+        });
+        $('#btn-2').on('click',function(){
+            alert('Button 2 clicked !');
+        })*/
+        
+        /*$('#btn-1').on('click',function(){
+            //$('.para-1').hide();
+
+        //______________hide on click and show durirng the other click____________
+            $('.para-1').toggle();
+        })
+        $('#btn-2').on('click',function(){
+            $('.para-1').show();
+        })
+            */
+        
+            //___________for doubel click and hover  _________
+            /*$('#btn-1').dblclick(function(){
+                $('.para-1').toggle();
+            });
+            $('#btn-1').hover(function(){
+                $('.para-1').toggle();
+            });*/
+
+            //______________mouseenter and mouse leave events__________________
+            /*$('#btn-1').on('mouseenter',function(){
+                $('.para-1').toggle();
+            });
+            $('#btn-1').on('mouseleave',function(){
+                $('.para-1').toggle();
+            });*/
+
+            //______________________mousemove event __________________
+            /*$('#btn-1').on('mousemove',function(){
+                $('.para-1').toggle();
+            });*/
+
+            //_____________________mouseup and mousedown__________________
+            /*$('#btn-1').on('mousedown',function(){
+                $('.para-1').toggle();
+            });
+            $('#btn-1').on('mouseup',function(){
+                $('.para-1').toggle();
+            });*/
+
+        //     $('#btn-1').click(
+        //     function(e){
+
+        //     // alert(e.currentTarget.id);
+        //     // alert(e.currentTarget.innerHTML);
+        //     // alert(e.currentTarget.outerHTML);
+        //     // alert(e.currentTarget.className);
+
+        //     //_____________________get the coordenents for the mouse on the element __________________
+        //     /*$('#btn-1').on('mousemove',function(e){
+        //         console.log('coords: Y:'+e.clientY + "X: "+e.clientX)
+        //     });*/
+        //     // $(document).on('mousemove',function(e){
+        //     //     $('#coords').html('coords: Y:'+e.clientY + "X: "+e.clientX)
+        //     // });
+        // });
+            
+        //______________________focus and blur events______________________
+        /* $('input').focus(function(){
+            // alert('focus');
+            $(this).css('background','pink')
+        })
+        $('input').blur(function(){
+            // alert('focus');
+            $(this).css('background','white')
+        });*/
+            
+        //____________________keyup and keydown events ___________________
+
+        /*$('input').keyup(function(){
+            console.log('keyup');
+        });*/
+            //_________________and to get the content that write in an input ________________________
+        /* $('input').keyup(function(e){
+                console.log(e.target.value)
+            });*/
+
+            //________________________
+            /*$('select#gender').change(function(){
+                alert('changed');   
+            });
+            $('select#gender').change(function(e){
+                alert(e.target.value);   
+            });*/ 
+            $('#form').submit(function(e){
+                e.preventDefault();
+                var name = $('input#name').val();
+                console.log(name);
+            })
+
+    </script>
+</body>
+</html>

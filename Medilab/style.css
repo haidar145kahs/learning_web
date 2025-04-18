@@ -1,0 +1,4 @@
+.btn{
+    background-color:var('$blue-600');
+    color: #000;
+}
